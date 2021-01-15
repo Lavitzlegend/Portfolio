@@ -95,15 +95,20 @@ a {
 .about {
   color: #ffffff;
   background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));
+  background: linear-gradient(bottom, rgb(6,8,71,1), rgba(6,8,71,.5));
+  background: -webkit-linear-gradient(bottom, rgb(6,8,71,1), rgba(6,8,71,.5));
+  background: -moz-linear-gradient(bottom, rgb(6,8,71,1), rgba(6,8,71,.5));
   text-align: center;
   padding: 5px;
   border-radius: 10px;
 }
 h4 {
   margin: -15px 0 30px 0;
+  background: rgb(0,0,0,0.75);
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
 }
 img {
   margin: -25px 0 15px 0;
